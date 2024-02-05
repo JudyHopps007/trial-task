@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-background: 15, 15, 15;
+    --bg-primary: 40, 40, 40;
+    --bg-secondary: 251, 37, 118;
+
+    --text-main: 243, 244, 246;
+    /** for warm designs**/
+    --text-inverted: 243, 244, 246;
+    --text-color: 222, 47, 117;
+    --text-alternative: 209, 213, 219;
+
+    --border-primary: 203, 213, 225;
+    --border-secondary: 251, 37, 118;
+  }
+
+  body {
+    @apply font-inter;
+  }
+}
